@@ -1,0 +1,27 @@
+{
+  "name": "teamwork-quota",
+  "version": "1.0.0",
+  "description": "Adds quota rate-limiting to TeamWork API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claude-abounegm/teamwork-quota.git"
+  },
+  "author": "Claude Abounegm (cabounegm@incomestore.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claude-abounegm/teamwork-quota/issues"
+  },
+  "homepage": "https://github.com/claude-abounegm/teamwork-quota#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "lodash": "^4.17.11"
+  },
+  "peerDependencies": {
+    "node-teamwork": "github:claude-abounegm/node-teamwork",
+    "quota": "github:claude-abounegm/quota"
+  }
+}
